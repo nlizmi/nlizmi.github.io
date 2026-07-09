@@ -1,0 +1,16 @@
+---
+layout: archive
+---
+{%- assign locale = page.locale | default: layout.locale | default: site.locale %}
+
+{{ content }}
+
+<h3 class="archive__subtitle">{{ "Updates" }}</h3>
+
+<div class="updates-list">
+  {% for update in site.data.updates %}
+    <div class="update-entry">
+      <p><strong>{{ update.date | date: "%b %-d, %Y:" }}</strong> {{ update.content }}</p>
+    </div>
+  {% endfor %}
+</div>

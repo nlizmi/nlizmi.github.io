@@ -21,7 +21,7 @@ title                    : "nlizmi.com"
 title_separator          : "::"
 subtitle                 : "cs & astro @ cornell" # site tagline that appears below site title in masthead
 name                     : "Nolan Lizmi"
-description              : "cs & astro @ cornell"
+description              : 
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "nlizmi/nlizmi.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -116,15 +116,15 @@ analytics:
 author:
   name             : "Nolan Lizmi"
   avatar           : "assets/images/headshot_square_small.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'm a third-year undergraduate at Cornell University who loves outer space and pretty pictures.\n\nIn particular, I'm passionate about optical systems, signal processing, and computer graphics.\n\nI am doing research under Kristina Monakhova in the [<u>Cornell Computational Imaging Lab</u>](https://kristinamonakhova.com){:target='_blank'}, and I previously worked in Giulia Guidi's [<u>ALPS Lab</u>](https://giuliaguidi.github.io/hpcgroup/){:target='_blank'}."
+  bio              : "I'm a third-year undergraduate at Cornell University who loves outer space and pretty pictures.\n\nI'm passionate about optical systems, signal processing, and computer graphics. In particular, I'm working with differentiable and physically-based rendering techniques and their applications to astronomy.\n\nI am doing research under Kristina Monakhova in the [<u>Cornell Computational Imaging Lab</u>](https://kristinamonakhova.com){:target='_blank'}, and I previously worked in Giulia Guidi's [<u>ALPS Lab</u>](https://giuliaguidi.github.io/hpcgroup/){:target='_blank'}."
   location         : "Ithaca, NY"
   email            : 
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
-    - label: "Email: nbl25@cornell.edu"
+    - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
       url: "mailto:nbl25@cornell.edu"
-    - label: "GitHub: nlizmi"
+    - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/nlizmi"
 
